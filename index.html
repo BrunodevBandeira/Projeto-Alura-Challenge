@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Decodificador de Texto">
+    <meta property="og:description" content="Projeto que criptografa textos">
+    <meta property="og:image" content="./img/Logo.svg">
+    <meta property="og:url" content="URL-da-sua-página">
+    <meta property="og:type" content="website">
+    <title> Decodificador de Texto </title>
+    <link rel="icon" href="./img/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- <video autoplay muted loop id="video_background">
+        <source src="../../img/gif04.mp4" type="video/mp4">
+    </video> -->
+    <img id="img_background" src="./img/img16.jpg" alt="logotipo alura">
+   
+    <header class="header">
+        <div class="header_container">
+            <img class="header_container_img" src=" ./img/Logo.svg" alt="logotipo alura">
+        </div>
+        <p> Projeto Alura Challenge - Oracle Next Education </p>
+    </header>
+
+
+    <div class="main">
+        <div class="main_aside">
+            <main class="main_container">
+                <div class="main_container_input">
+                    <textarea class="input_textarea"  placeholder="Digite seu texto"></textarea>
+                </div>
+
+                <p class="main_container_info">
+                    <span>Apenas letras minúsculas e sem acento</span>
+                    <img class="section_img" src="./img/bi_exclamation-circle-fill.svg" alt="símbolo de exclamação">
+                </p>
+
+                <div class="input_botoes_submit">
+                    <button class="main_container_botoes_submit_cripto main_button" onclick="transformarTexto('criptografar')">Criptografar</button>
+                    <button class="main_container_botoes_submit_cripto main_button" onclick="transformarTexto('descriptografar')">Descriptografar</button>
+                </div>
+            </main>
+         
+            <section class="section">
+                <div class="sectio_resultado">
+                    <textarea readonly class="section_resultado_output hidden"></textarea>
+                    <div class="section_resultado_inicial">
+                        <img class="section_img_boy" src=" ./img/High quality products 1 1.svg" alt="imagem de um menino com uma lupa no olho">
+                        <h2 class="section_h2 title">Nenhuma mensagem encontrada</h2>
+                        <h3 class="section_h3 title">Digite um texto que você deseja criptografar ou descriptografar.</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="line"></div>
+ 
+    <footer class="footer">
+        <p class="footer_dev">Desenvolvido por Bruno Bandeira, todos os direitos reservados</p>
+        <div class="footer_redes-sociais">
+            <a href="https://github.com/BrunodevBandeira" target="_blank">
+                <img src="./img/github.png" alt="Logo do Github">
+            </a>
+            
+            <a href="https://www.linkedin.com/in/brunodevbandeira/">
+                <img src="./img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+        </div>
+        
+    </footer>
+
+    <script src=" ./js/script.js"></script>
+</body>
+</html>
