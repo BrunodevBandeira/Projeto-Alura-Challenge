@@ -35,7 +35,7 @@
 }
 
 .input_textarea::placeholder {
-    color: var(--color03);
+    color: var(--);
     font-size: 2rem;
 }
 
@@ -106,7 +106,7 @@
     justify-content: space-between;
     align-items: center;
     transition: 1s;
-
+    border-radius: 2rem;
 }
 
 .sectio_resultado:hover {

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merienda:wght@300..900&family=Protest+Revolution&display=swap');
+
 :root{
     --color01: #242424;
     --color02: #0ba5ec;
     --color03: #F0ECE3;
     --color04: #4298c0;
-    --fonte: 'Courier New', Courier, monospace;
+    --fonte: 'Merienda', serif;
 }
 
 #img_background {
